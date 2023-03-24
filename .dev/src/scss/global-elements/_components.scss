@@ -1,0 +1,29 @@
+.category {
+	background: var(--bg-3);
+	display: inline-block;
+	color: var(--texto-1);
+	padding: 16px 24px;
+	font-weight: 400;
+	font-size: 32px;
+	line-height: 38px;
+	text-transform: uppercase;
+	font-family: var(--bebe);
+	min-width: 140px;
+}
+.button {
+	font-family: var(--open);
+	font-style: normal;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: var(--texto-2);
+	font-size: 16px;
+	line-height: 162%;
+	background: var(--bg-0);
+	padding: 16px 40px;
+	text-decoration: none;
+	display: inline-block;
+	&--default {
+		padding: 8px 24px;
+		min-width: 160px;
+	}
+}

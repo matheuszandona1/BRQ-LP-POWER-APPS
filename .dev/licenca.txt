@@ -1,0 +1,37 @@
+Acordo de Licença de Software
+
+Este acordo de licença ("Acordo") é um acordo legal entre Fixx Serviços Digitais Ltda ("Fixx") e <<CLIENTE>> SA, para o uso do produto de software (o "Software"). Ao usar o Software, <<CLIENTE>> S.A. concorda em se comprometer com os termos deste Acordo.
+
+1. Concessão de Licença
+Fixx concede a <<CLIENTE>>, uma licença não transferível, não exclusiva, perpétua para usar o Software, de acordo com os termos e condições deste Acordo.
+
+2. Restrições
+A licença concedida na Seção 1 está sujeita às seguintes restrições:
+a. O Software pode ser usado somente por <<CLIENTE>>, suas subsidiriárias e seus funcionários.
+b. O Software não pode ser revendido ou distribuído a terceiros.
+c. O Software não pode ser usado para fins ilegais ou não autorizados.
+
+3. Propriedade
+Fixx mantém todos os direitos, títulos e interesses no Software, incluindo todos os direitos de propriedade intelectual. Este Acordo não transfere a <<CLIENTE>> quaisquer direitos de propriedade no Software.
+
+4. Suporte e Manutenção
+Fixx fornecerá a <<CLIENTE>> suporte e manutenção para o Software de acordo com o acordo.
+
+5. Término
+Este Acordo será automaticamente encerrado se <<CLIENTE>> violar qualquer uma de suas obrigações sob este Acordo.
+
+6. Lei Aplicável
+Este Acordo será regido e interpretado de acordo com as leis do Brasil, sem dar efeito a quaisquer princípios de conflitos de leis.
+
+7. Acordo Integral
+Este Acordo constitui o acordo integral entre as partes com relação ao objeto deste e substitui todos os acordos, entendimentos e negociações anteriores, sejam orais ou escritos.
+
+8. Alterações
+Este Acordo pode ser alterado somente por instrumento escrito assinado por ambas as partes.
+
+9. Isenção
+A falha de Fixx em fazer cumprir qualquer disposição deste Acordo nãoserá considerada uma renúncia de seu direito de fazer cumprir tal disposição.
+
+Informações de Contato
+Se você tiver alguma dúvida sobre este Acordo, entre em contato com Fixx em com@fermen.to.
+Ao usar o software, <<CLIENTE>> concorda com os termos e condições deste Acordo.
