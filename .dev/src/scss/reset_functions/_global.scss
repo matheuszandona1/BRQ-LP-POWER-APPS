@@ -1,6 +1,6 @@
 // @import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600;800&display=swap');
 html {
-  scroll-behavior: smooth;
+	scroll-behavior: smooth;
 	box-sizing: border-box;
 
 	// Font Antialiased (greyscale)
@@ -9,11 +9,16 @@ html {
 	moz-osx-font-smoothing: grayscale;
 	text-rendering: optimizeLegibility;
 	-moz-font-feature-settings: “liga” on;
-	letter-spacing: -.01rem;
+	letter-spacing: -0.01rem;
 }
 
 *,
 *::before,
 *::after {
 	box-sizing: inherit;
+}
+
+* {
+	margin: 0;
+	padding: 0;
 }

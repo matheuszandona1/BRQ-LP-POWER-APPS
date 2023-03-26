@@ -26,4 +26,13 @@
 		padding: 8px 24px;
 		min-width: 160px;
 	}
+	&--black {
+		background: var(--bg-2);
+		color: var(--texto-1);
+	}
+	&-container {
+		&.center {
+			text-align: center;
+		}
+	}
 }
