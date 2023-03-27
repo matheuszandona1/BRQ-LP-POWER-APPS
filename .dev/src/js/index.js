@@ -2,20 +2,6 @@ $(document).ready(function () {
 	$("#telefone").mask("(00) 00000-0000")
 })
 
-$(document).ready(function () {
-	$(".slide-parent").hide()
-	$(".slide-parent:first").show()
-
-	$(".slider__pills:first").addClass("active")
-
-	$(".slider__pills").click(function () {
-		var tab_id = $(this).attr("data-tab")
-		$(".slider__pills").removeClass("active")
-		$("#" + tab_id).show()
-		$(this).addClass("active")
-	})
-})
-
 $(".slide-parent").slick({
 	centerMode: true,
 	slidesToShow: 1,
@@ -43,6 +29,36 @@ $(".slide-parent").slick({
 			},
 		},
 	],
+})
+$(document).ready(function () {
+	// ocultar todas as tabs, exceto a primeira
+	$(".slide-parent:not(:first)").hide()
+
+	// adicionar a classe "active" à primeira slider__pills
+	$(".slider__pills:first").addClass("active")
+
+	// quando uma slider__pills é clicada
+	$(".slider__pills").click(function () {
+		// obter o data-tab da slider__pills clicada
+		var tab_id = $(this).attr("data-tab")
+
+		// remover a classe "active" de todas as slider__pills
+		$(".slider__pills").removeClass("active")
+
+		// adicionar a classe "active" à slider__pills clicada
+		$(this).addClass("active")
+
+		// ocultar todas as tabs
+		$(".slide-parent").hide()
+		$(".slide-parent").slick("refresh")
+		console.log("passei por aq")
+
+		// mostrar a tab correspondente ao data-tab da slider__pills clicada
+		$("#" + tab_id).show()
+	})
+})
+$(document).ready(function () {
+	$(".w-tab-link").on("click", function () {})
 })
 $(document).ready(function () {
 	// switch tabs

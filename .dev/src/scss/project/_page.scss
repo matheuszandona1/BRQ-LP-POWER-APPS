@@ -114,8 +114,8 @@
 		display: flex;
 		justify-content: center;
 		gap: 60px;
-		overflow: auto;
 		@include media(s) {
+			overflow: auto;
 			justify-content: flex-start;
 			padding-left: 24px;
 		}
