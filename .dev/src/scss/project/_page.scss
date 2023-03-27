@@ -293,7 +293,9 @@
 		justify-content: center;
 		gap: 24px;
 		margin: 40px auto;
-		flex-wrap: wrap;
+		@include media(s) {
+			flex-wrap: wrap;
+		}
 	}
 	&__card {
 		border: 1px solid var(--bg-3);
