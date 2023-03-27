@@ -370,13 +370,13 @@
 		margin: 0 auto;
 		gap: 60px;
 		position: relative;
-		overflow-x: auto;
-		overflow-y: hidden;
 
 		@include media(s) {
 			justify-content: flex-start;
 			padding-bottom: 20px;
 			padding-top: 30px;
+			overflow-x: auto;
+			overflow-y: hidden;
 		}
 		&::after {
 			background: var(--texto-1);
