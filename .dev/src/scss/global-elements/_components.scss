@@ -28,6 +28,10 @@
 	padding: 16px 40px;
 	text-decoration: none;
 	display: inline-block;
+	&.black{
+		background: black;
+		color: white;
+	}
 	@include media(s) {
 		padding: 8px 24px;
 	}
