@@ -3,18 +3,14 @@ $(document).ready(function () {
 })
 
 $(".slide-parent").slick({
-	slidesToShow: 3,
-	arrows: true,
+	slidesToShow: 2,
 	dots: true,
-	autoplay: false,
-	// centerMode: true,
-	// centerPadding: "20%",
+	arrows: false,
 	responsive: [
 		{
 			breakpoint: 768,
 			settings: {
 				arrows: false,
-				centerPadding: "0px",
 				slidesToShow: 1,
 			},
 		},
@@ -22,13 +18,18 @@ $(".slide-parent").slick({
 			breakpoint: 480,
 			settings: {
 				arrows: false,
-				centerPadding: "0px",
 				slidesToShow: 1,
 			},
 		},
 	],
 })
+$(".slick-prev").click(function () {
+	$(".slide-parent").slick("slickPrev")
+})
 
+$(".slick-next").click(function () {
+	$(".slide-parent").slick("slickNext")
+})
 
 $(".faq__question").click(function () {
 	$(this).find(".faq__question--text").toggleClass("active")
